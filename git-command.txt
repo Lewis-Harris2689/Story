@@ -1,0 +1,32 @@
+
+mkdir foldername (to create folder)
+touch filename (to create a file)
+rm filename (to remove the file)
+rm -r foldername (to remove the folder) (-rf to use force remove)
+start filename (to open the file)
+code filename (to open the file in vscode)
+
+git init
+git config user.name "someone"
+git config user.email "someone@someplace.com"
+
+git add filename
+git add * or git add . (to add all files)
+
+git status
+git commit -m "some Message"
+git log
+
+git diff filename
+git checkout filename (to restore the file to original version)
+
+git remote add origin https-links from your repository
+git branch -M main
+git push -u origin main (move local respository to github)
+
+git rm --cached -r . (to remove all files from git add)
+
+rm -rf .git (to remove git from ur project)
+
+git reset --soft HEAD~1 (to reverse commit but don't delete your new edit )
+git reset --hard HEAD~1 (to reverse commit but it will restore to previous version)
