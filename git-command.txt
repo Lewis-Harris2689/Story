@@ -36,3 +36,6 @@ git clone https-links from the repository you want to clone
 git branch branchName (to create a new branch)
 git branch (to see which branch you are on)
 git checkout (to change the branch)
+
+git merge branchName (go to main branch first to merge)
+type some note for merge or close the note or enter q!
